@@ -1,0 +1,37 @@
+#header { 
+	height: 40px;
+	background: #3D4F5B;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+
+}
+#right { 
+	width: 833px;
+	color: #0B4980;
+	float: right;
+
+}
+
+#left {
+	width: 500px; 
+	float:left;
+	background: linear-gradient(to right, #444444, #6C6C6C);
+	color: #FFFFFF;
+
+
+}
+
+.img {
+	text-align: center;
+
+}
+
+.text {
+	text-align: center;
+	}
+
+#first {
+	background: #FEA503;
+
+}
