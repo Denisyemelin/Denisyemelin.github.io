@@ -2,28 +2,39 @@
 	height: 40px;
 	background: #3D4F5B;
 	text-align: center;
-	margin: auto;
-	padding: auto;
+	font-size: 200%; 
+	font-family: arial;
+	padding: 3px;
 }
 #right { 
 	width: 833px;
 	color: #0B4980;
 	float: right;
+	font-family: arial;
 }
 
 #left {
 	width: 500px; 
 	float:left;
-	background: linear-gradient(to right, #444444, #6C6C6C);	
+	background: linear-gradient(to right, #444444, #6C6C6C);
+	text-align: center;	
+	font-family: arial;
 }
 
 .img {
-	text-align: center;
+	height: 150px;
+	width: 185px;
+	border: 2px solid green;
+	margin: 3px;
+	border-radius: 30px;
 }
 
 .text {
 	color: #FFFFFF;
 	text-align: center;
+	font-family: arial;
+	padding: 1px;
+	margin: 1px;
 	}
 	
 .first {
@@ -33,6 +44,7 @@
 	margin: 5px;
 	border-radius: 5px;
 	text-align: center;
+	font-family: arial;
 }
 
 .second {
@@ -42,6 +54,7 @@
 	margin: 5px;
 	border-radius: 5px;
 	text-align: center;
+	font-family: arial;
 }
 
 .third {
@@ -51,10 +64,61 @@
 	margin: 5px;
 	border-radius: 5px;
 	text-align: center;
+	font-family: arial;
 }
 
 a {
 	color:#086FE5;
 	font-size: 15px;
 	font-weight: bold;
+}
+.contacts{
+	text-align: left;
+	font-family: arial;
+}
+
+.name{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: arial;
+	font-size: 200%;
+	margin: auto;
+	padding: auto;
+	border-bottom: 3px solid #FAEF4A;
+	width: 450px;
+	height: 100px;
+}
+
+.birthday{
+	border-bottom: 3px solid #4049FA;
+	height: 130px;
+	width: 400px;
+	padding: auto;
+	line-height: 1.5em;
+}
+
+.interests{
+	border-bottom: 3px solid #4049FA;
+	width: 400px;
+	line-height: 1.5em;
+}
+
+.signs{
+	border-bottom: 3px solid #4049FA;
+	width: 400px;
+	line-height: 1.5em;
+}
+
+p{
+	line-height: 0.9em;
+}
+
+.dash{
+	list-style-type: none;
+	padding: 5px;
+	line-height: 0.9em
+}
+li.dash:before {
+	content: "—";
+
 }
